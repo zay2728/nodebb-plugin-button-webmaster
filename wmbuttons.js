@@ -11,30 +11,12 @@ $('document').ready(function() {
 		});
 		composer.addButton('fa fa-youtube', function(textarea, selectionStart, selectionEnd) {
 			if(selectionStart === selectionEnd){
-				controls.insertIntoTextarea(textarea, '->Insert Text Here<-');
+				controls.insertIntoTextarea(textarea, '->http://');
 				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 18);
 			} else {
-				controls.wrapSelectionInTextareaWith(textarea, '->','<-');
+				controls.wrapSelectionInTextareaWith(textarea, '->','');
 				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 2);
 			}
 		});
-		composer.addButton('fa fa-align-right', function(textarea, selectionStart, selectionEnd) {
-			if(selectionStart === selectionEnd){
-				controls.insertIntoTextarea(textarea, '->Insert Text Here->');
-				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 18);
-			} else {
-				controls.wrapSelectionInTextareaWith(textarea, '->','->');
-				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 2);
-			}
-		});
-		composer.addButton('fa fa-align-justify', function(textarea, selectionStart, selectionEnd) {
-			if(selectionStart === selectionEnd){
-				controls.insertIntoTextarea(textarea, '=>Insert Text Here<=');
-				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 18);
-			} else {
-				controls.wrapSelectionInTextareaWith(textarea, '=>','<=');
-				controls.updateTextareaSelection(textarea, selectionStart + 2, selectionEnd + 2);
-			}
-		});
-	});
+		
 });

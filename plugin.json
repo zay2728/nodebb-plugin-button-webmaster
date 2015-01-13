@@ -1,0 +1,14 @@
+{
+	"id": "nodebb-plugin-buttons-webmaster,
+	"name": "NodeBB: Buttons webmaster",
+	"description": "menambahkan kostum button.",
+	"url": "https://github.com/zay2728/nodebb-plugin-buttons-webmaster",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+	],
+
+        "scripts": [
+		"./wmbuttons.js"
+	]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "nodebb-plugin-buttons-webmaster",
+  "version": "0.0.5",
+  "description": "Allows you to take NodeBB's composer to the next level to provide more user-friendly buttons.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zay2728/nodebb-plugin-button-webmaster"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "composer",
+    "buttons"
+  ],
+  "author": {
+    "name": "komunitaswebmaster",
+    "email": "mzainudin27@gmail.com"
+  },
+  "license": "gnu2",
+  "bugs": {
+    "url": "https://github.com/zay2728/nodebb-plugin-buttons-webmaster/issues"
+  },
+  "_id": "nodebb-plugin-buttons-galore@0.0.5",
+  "_from": "nodebb-plugin-buttons-galore@latest",
+  "gitHead": "7a05d9c2970e831632b260a827dc786868cd7767",
+  "homepage": "https://github.com/zay2728/nodebb-plugin-buttons-webmaster",
+  "_shasum": "9596052b0e12f2bc11971ce552c75d0516f02c79",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "zay2728",
+    "email": "mzainudin27@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "zay2728",
+      "email": "mzainudin27@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "9596052b0e12f2bc11971ce552c75d0516f02c79",
+    "tarball": "http://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.5.tgz"
+}

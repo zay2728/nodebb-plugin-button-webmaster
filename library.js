@@ -24,7 +24,3 @@ plugin.parse = function(postContent, callback) {
 };
 
 module.exports = plugin;
-module.exports.parse = function(postContent, callback) {
-    postContent = postContent.replace
-    callback(null, postContent);
-};

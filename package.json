@@ -42,7 +42,7 @@
   ],
   "dist": {
     "shasum": "9596052b0e12f2bc11971ce552c75d0516f02c79",
-    "tarball": "http://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.1.tgz"
+    "tarball": "http://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-button-webmaster-0.0.1.tgz"
   },
   "directories": {},
   "_resolved": "https://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.1.tgz"

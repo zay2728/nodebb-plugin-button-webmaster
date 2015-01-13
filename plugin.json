@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-buttons-webmaster",
-	"name": "NodeBB: Buttons webmaster",
+	"id": "nodebb-plugin-button-webmaster",
+	"name": "NodeBB: Button webmaster",
 	"description": "menambahkan kostum button youtube dan spoiler sementara.",
 	"url": "https://github.com/zay2728/nodebb-plugin-buttons-webmaster",
 	"library": "./library.js",

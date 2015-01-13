@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-buttons-webmaster",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Allows you to take NodeBB's composer to the next level to provide more user-friendly buttons.",
   "main": "library.js",
   "scripts": {
@@ -42,8 +42,8 @@
   ],
   "dist": {
     "shasum": "9596052b0e12f2bc11971ce552c75d0516f02c79",
-    "tarball": "http://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.5.tgz"
+    "tarball": "http://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.1.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.5.tgz"
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-buttons-webmaster/-/nodebb-plugin-buttons-webmaster-0.0.1.tgz"
 }

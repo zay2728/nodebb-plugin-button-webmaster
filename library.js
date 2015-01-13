@@ -10,7 +10,7 @@ plugin.parse = function(postContent, callback) {
 			//Handle line breaks inside a paragraph.
 			.replace(/[^\S](\n)/g, "<br>")
 			//Text align left
-			.replace(/<p>&lt;-([^-]*(?:(?!&lt;-+|&lt;-)*)*)&lt;-<\/p>/gm,'<p class="text-left">$1</p>')
+			.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)<\/a>/g, '<iframe class="youtube-plugin" width="640" height="360" src="http://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>');
 			//Text align center
 			.replace(/<p>-&gt;([^-]*(?:(?!-&gt;+|&lt;-)*)*)&lt;-<\/p>/gm,'<p class="text-center">$1</p>')
 			//Text align right
@@ -24,3 +24,7 @@ plugin.parse = function(postContent, callback) {
 };
 
 module.exports = plugin;
+module.exports.parse = function(postContent, callback) {
+    postContent = postContent.replace
+    callback(null, postContent);
+};
